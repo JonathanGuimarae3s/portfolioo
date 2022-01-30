@@ -1,14 +1,14 @@
-$(document).ready(() => {
+onload = $(document).ready(() => {
 	let owl = $(".owl-carousel");
 	owl.owlCarousel({
-		margin: 10,
+		margin: 20,
 		loop: true,
-		items: 3,
+		items: 3.2,
 		autoplay: true,
-		autoplayTimeout: 1500,
+		autoplayTimeout: 5000,
 		autoplayHoverPause: true,
 		slideBy: 2,
-		dots: true,
-		slideTransition: "ease-in-out",
+		slideTransition: "linear",
+		dots: false,
 	});
 });

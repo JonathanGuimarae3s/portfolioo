@@ -31,7 +31,15 @@ main {
 	padding-bottom: 1px;
 	box-shadow: 1px 1px 20px 5px #0000008e;
 }
-/* section */
+/* .back_container_contacts,
+.back_container_photo,.back_containeer_sobre,.back_container_skills,.back_container_projects{
+	visibility: hidden;
+} */
+
+
+
+
+/* section 1 */
 .back_container_photo {
 	margin-top: 2em;
 }
@@ -89,11 +97,10 @@ p {
 
 /* MEUS PROJETOS */
 
-.github_link{
+.github_link {
 	text-decoration: none;
 	display: flex;
 	justify-content: center;
-	
 }
 .icone_github {
 	font-size: 28px;
@@ -102,41 +109,39 @@ p {
 	margin-left: 10px;
 }
 .icone_github:hover {
-	
 	color: var(--color1);
 }
 .project {
-	max-width: 85%;
+	max-width: 100%;
 	text-align: center;
 	background: var(--color2);
+	box-shadow: 4px 4px 5px grey;
 }
-
 
 .project_description {
 	margin-top: 10px;
 	width: 100%;
 }
 .project_description > p {
-	text-align: justify;
+	text-align: 10px;
 }
-.project_buttons{
-margin: 1px;
+.project_buttons {
+	margin: 1px;
 }
-.mg{
+.mg {
 	margin-right: 5px;
 }
-.button{
+
+.button {
 	padding: 5px;
 	margin-bottom: 5px;
 	border: none;
 	background-color: var(--color4);
 	border-radius: 3px;
 	transition: all 500ms ease-in-out;
-	
-	
 }
 
-.button:hover{
+.button:hover {
 	padding: 5px;
 	margin-bottom: 5px;
 	border: none;
@@ -144,7 +149,6 @@ margin: 1px;
 	background-color: var(--color5);
 	font-weight: 500;
 	font-size: 0.9em;
-	transition: all 500ms ease-in-out;
 }
 /* CONTATO */
 .contacts {

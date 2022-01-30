@@ -7,6 +7,7 @@
 		<title>Jonathan Guimarães</title>
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/animação.css" />
+		<link rel="stylesheet" href="scroll.css">
 		<link
 			rel="stylesheet"
 			href="lib/owlCarousel/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"
@@ -20,11 +21,13 @@
 			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
 			crossorigin="anonymous"
 		></script>
+		<script src="https://unpkg.com/scrollreveal"></script>
+	
 	</head>
 	<body>
-		<main>
+		<main class="main">
 			<section class="back_container_photo">
-				<div>
+				<div class="scroll">
 					<div class="container_photo">
 						<img
 							src="https://pps.whatsapp.net/v/t61.24694-24/153250935_434014588424912_284826927581878145_n.jpg?ccb=11-4&oh=16bef9bff1f29d7cbc59e845ea9cda24&oe=61F6D56A"
@@ -58,8 +61,8 @@
 			</section>
 			<section class="back_container_skills">
 				<div class="container">
-					<h2 class="title_cards hs">Skills</h2>
-					<div class="container_cards">
+					<h2 class="title_cards hs scroll">Skills</h2>
+					<div class="container_cards scroll">
 						<div class="cards_skills">
 							<img
 								src="https://www.clipartmax.com/png/full/313-3138160_this-flag-is-based-on-the-logos-for-html5-js-html-css.png "
@@ -71,16 +74,46 @@
 			</section>
 			<section class="back_container_projects">
 				<div class="container">
-					<div>
-						<a
-							href="https://github.com/JonathanGuimarae3s"
-							target="_blank"
-							class="github_link"
-							><h2 class="hs">Meus Projetos</h2>
+					<div class="github_link scroll">
+						<h2 class="hs">Meus Projetos</h2>
+						<a href="https://github.com/JonathanGuimarae3s" target="_blank">
 							<i class="fab fa-github icone_github"></i
 						></a>
 					</div>
-					<div class="container_projects owl-carousel owl-theme">
+					<div
+						id="container_projects"
+						class="container_projects owl-carousel owl-theme "
+					>
+						<div class="project item">
+							<div class="project_images">
+								<img
+									src="css/imgs/projetos/curiosidade-do-android.png"
+									alt=""
+									width="260px"
+									height="207px"
+								/>
+							</div>
+							<div class="project_description">
+								<h4>Curiosidades do Android</h4>
+								<p>
+									Esse projeto foi um desafio proposto pelo professor Gustavo
+									Guanabara,dono do canal Curso em vídeo no Youtube.
+								</p>
+
+								<p>
+									Ele foi um dos meus primeiros projetos(possuo grande afeto por
+									ele),nele apliquei meus primeiros aprendizados no HTML, tags
+									semânticas, responsividade e etc, e CSS,
+									pseudo-elementos,box-models e entre outros, que venho
+									aplicando em meus projetos recentes.
+								</p>
+								<p>Esse projeto foi desenvolvido apenas com HTML e CSS.</p>
+							</div>
+							<div class="project_buttons">
+								<button class="button mg">Conferir o código fonte</button>
+								<button class="button">Acessar o site</button>
+							</div>
+						</div>
 						<div class="project item">
 							<div class="project_images">
 								<img
@@ -90,19 +123,19 @@
 								/>
 							</div>
 							<div class="project_description">
-								<h4>Vitrine para Kids Karolina</h4>
+								<h4>Vitrine</h4>
 								<p>
 									Este projeto está sendo feito no intuito de ajudar a vendedora
-									a ter um controle de onde vem os clientes e na melhor
+									ter um controle de onde vem os clientes e na melhor
 									experiência do cliente.
 								</p>
 								<p>
 									Para conseguir resolver esses problemas, pensei em criar uma
 									vitrine que quando o cliente clicasse no produto escolhido ele
 									seria reedirecionado para o chat da vendedora para saber mais
-									sobre o vestido e a forma de pagamentos . Para isso utilizeI o
-									JavaScript com o objeto <code>.open() </code>e a API do
-									whatsapp.
+									sobre o vestido e a forma de pagamentos . Para isso utilizei o
+									JavaScript com o método <code>.open() </code>e a API do
+									whatsapp
 								</p>
 							</div>
 							<div class="project_buttons">
@@ -110,17 +143,76 @@
 								<button class="button">Acessar o site</button>
 							</div>
 						</div>
-						
+						<div class="project item">
+							<div class="project_images">
+								<img
+									src="https://github.com/JonathanGuimarae3s/churrascometro/blob/main/css/gif/gif.gif?raw=true"
+									alt=""
+									width="260px"
+									height="207px"
+								/>
+							</div>
+							<div class="project_description">
+								<h4>Churrascômetro</h4>
+								<p>
+									Esse site foi um projeto que eu fiz para praticar minha lógica
+									de programação.
+								</p>
+
+								<p>
+									O objetivo dele é ajudar o usuário no cálculo do buffet do
+									churrasco tendo como parâmetro a quantidade de pessoas que
+									estarão no evento.Com esse desafio eu aprendi a organizar
+									melhor o código JS, separando eles em variáveis para ter uma
+									melhor leitura do código e serviu para praticar minha lógica
+									de programação.
+								</p>
+								<p>Ele foi desenvolvido com JavaScript, CSS e HTML.</p>
+							</div>
+							<div class="project_buttons">
+								<button class="button mg">Conferir o código fonte</button>
+								<button class="button">Acessar o site</button>
+							</div>
+						</div>
+
+						<div class="project item">
+							<div class="project_images">
+								<img
+									src="https://raw.githubusercontent.com/JonathanGuimarae3s/todo-list/main/github/gif.gif"
+									alt=""
+									width="260px"
+									height="207px"
+								/>
+							</div>
+							<div class="project_description">
+								<h4>Todo-List</h4>
+								<p>
+									Esse site foi um desafio proposto pelo Igor Oliveira , dono do
+									canal Programador Br, em seu curso o qual eu sou aluno.
+								</p>
+
+								<p>
+									O objetivo dele é ajudar o usuário na organização das tarefas
+									diárias. Nesse projeto eu pude perceber a minha evolução no
+									HTML, CSS e ,principalmente, no JavaScript.
+								</p>
+								<p>O Todo foi desenvolvido com JavaScript, CSS e HTML.</p>
+							</div>
+							<div class="project_buttons">
+								<button class="button mg">Conferir o código fonte</button>
+								<button class="button">Acessar o site</button>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
 			<section class="back_container_contacts">
 				<div class="container_contacts">
-					<h1 class="hs">
+					<h1 class="hs ">
 						Entre em contato comigo
-						<i></i>
+						
 					</h1>
-					<div class="contacts">
+					<div class="contacts ">
 						<div>
 							<a
 								href="https://www.instagram.com/jonathanguimaraeslo/"
@@ -171,12 +263,22 @@
 			</section>
 		</main>
 	</body>
-	<script src="main.js"></script>
+
+	<script src="#"></script>
+
+	<!-- FONT AWESOME -->
 	<script
 		src="https://kit.fontawesome.com/9d0da8719b.js"
 		crossorigin="anonymous"
 	></script>
-
+	<!-- OWL CAROUSEL -->
 	<script src="lib/owlCarousel/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
-	<script src="jquery.js" type="text/javascript"></script>
+
+<!-- SCROLL REVEAL -->
+
+	<script src="scroll.js"></script>
+	<!-- JQUERY -->
+	<script src="jquery.js" type="text/javascript">
+		
+	</script>
 </html>
