@@ -4,6 +4,7 @@
 	padding: 0;
 	margin: 0;
 	color: var(--color1);
+	font-family: var(--font);
 }
 :root {
 	--color1: #0d0d0d;
@@ -17,10 +18,11 @@
 	text-align: center;
 	margin-bottom: 10px;
 	font-family: var(--font);
+	font-weight: 500;
 }
 
 body {
-	background-color: var(--color3);
+	background-image: linear-gradient(to bottom,#404040,#0d0d0d);
 }
 
 main {
@@ -31,13 +33,6 @@ main {
 	padding-bottom: 1px;
 	box-shadow: 1px 1px 20px 5px #0000008e;
 }
-/* .back_container_contacts,
-.back_container_photo,.back_containeer_sobre,.back_container_skills,.back_container_projects{
-	visibility: hidden;
-} */
-
-
-
 
 /* section 1 */
 .back_container_photo {
@@ -89,10 +84,13 @@ p {
 }
 .container_cards {
 	margin: auto;
-	width: 30em;
+	width: 40em;
+	display: flex;
+	align-items: center;
+	gap: 3em;
 }
 .cards_skills > img {
-	width: 30em;
+	width: 100%;
 }
 
 /* MEUS PROJETOS */
@@ -163,8 +161,25 @@ p {
 	font-size: 1.5em;
 	transition: all 500ms ease-in-out;
 	color: var(--color3);
+	font-family: var(--font);
 }
 .icone:hover {
-	font-size: 1.5em;
+	font-size: 1.6em;
+	color: var(--color1);
+}
+.icone > p {
+	font-size: 22px;
+	margin: 3px;
+	font-weight: 500;
+	color: var(--color3);
+	font-family: var(--font);
+	display: inline;
+	transition: all 500ms ease-in-out;
+}
+.icone > p:hover {
+	font-size: 24px;
+	font-family: var(--font);
+	display: inline;
+	
 	color: var(--color1);
 }
