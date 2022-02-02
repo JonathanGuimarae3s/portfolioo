@@ -5,9 +5,9 @@ onload = $(document).ready(() => {
 		loop: true,
 		items: 3.2,
 		autoplay: true,
-		autoplayTimeout: 5000,
+		autoplayTimeout: 100000000000,
 		autoplayHoverPause: true,
-		slideBy: 2,
+		slideBy: 1,
 		slideTransition: "linear",
 		dots: false,
 	});
