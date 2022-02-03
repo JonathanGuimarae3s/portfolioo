@@ -16,6 +16,8 @@
 }
 .owl-stage-outer{
 	height:50em;
+}.owl-item,.cloned ,.active{
+	width: 400px;
 }
 .hs {
 	text-align: center;
@@ -118,6 +120,7 @@ p {
 	text-align: center;
 	background: var(--color2);
 	box-shadow: 4px 4px 5px grey;
+	height: 100%;
 }
 
 .project_description {

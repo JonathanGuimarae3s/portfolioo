@@ -5,10 +5,11 @@ onload = $(document).ready(() => {
 		loop: true,
 		items: 3.2,
 		autoplay: true,
-		autoplayTimeout: 100000000000,
+		autoplayTimeout: 100000,
 		autoplayHoverPause: true,
 		slideBy: 1,
 		slideTransition: "linear",
 		dots: false,
+		
 	});
 });
