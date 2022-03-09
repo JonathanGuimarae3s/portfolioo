@@ -14,21 +14,28 @@
 	--color5: #8c8c8c;
 	--font: Roboto, sans-serif;
 }
-.owl-stage-outer {
-	height: 50em;
-}
-.owl-item,
-.cloned,
-.active {
-	width: 400px;
-}
+
 .hs {
 	text-align: center;
 	margin-bottom: 10px;
 	font-family: var(--font);
 	font-weight: 500;
 }
-
+/* comuns */
+.paragraphs,
+.container_projects,
+.container,
+.contacts {
+	width: 90%;
+	margin: 2em auto;
+}
+p {
+	letter-spacing: 0.9px;
+	margin: 15px;
+	word-spacing: 0px;
+	text-align: justify;
+}
+/* fim dos comuns */
 body {
 	background-image: linear-gradient(to bottom, #404040, #0d0d0d);
 }
@@ -76,17 +83,6 @@ main {
 	margin: 0;
 }
 
-.paragraphs,
-.container_projects,
-.container,
-.contacts {
-	width: 90%;
-	margin: 2em auto;
-}
-p {
-	letter-spacing: 1.2px;
-	margin: 15px;
-}
 /* SKILLS */
 .title_cards {
 	margin-bottom: 30px;
@@ -203,6 +199,16 @@ p {
 	padding-bottom: 1px;
 	box-shadow: 1px 1px 20px 5px #0000008e;
 }
+.container_photo{
+	width:60%
+}
+.back_container_photo > div {
+    padding: 20px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+	gap:1em
+}
 .container_cards {
 	margin: auto;
 	width: 27em;
@@ -210,4 +216,14 @@ p {
 	align-items: center;
 	gap: 1em;
 }
+.project{
+flex-direction: column;
 }
+.icone>p{
+margin: 0;
+font-size: 16px;
+}
+.icone>p:hover{
+margin: 0;
+font-size: 17px;
+}}
