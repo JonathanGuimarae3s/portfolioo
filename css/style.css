@@ -194,3 +194,20 @@ p {
 
 	color: var(--color1);
 }
+@media screen and (max-width:500px) {
+	main {
+	width: 460px;
+	margin: 2em auto;
+	background-color: var(--color4);
+	border-radius: 3px;
+	padding-bottom: 1px;
+	box-shadow: 1px 1px 20px 5px #0000008e;
+}
+.container_cards {
+	margin: auto;
+	width: 27em;
+	display: flex;
+	align-items: center;
+	gap: 1em;
+}
+}
