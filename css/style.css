@@ -190,7 +190,7 @@ main {
 
 	color: var(--color1);
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:490px) {
 	main {
 	width: 440px;
 	margin: 2em auto;
