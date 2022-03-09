@@ -201,7 +201,13 @@ main {
 }
 .container_photo{
 	width:60%
-}
+}.photo {
+	width: 220px;
+	}
+.title {
+	font-size: 1.8rem;
+}	
+
 .back_container_photo > div {
     padding: 20px;
     margin-top: 0px;
