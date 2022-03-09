@@ -14,6 +14,10 @@
 	--color5: #8c8c8c;
 	--font: Roboto, sans-serif;
 }
+html,
+body {
+	scroll-behavior: smooth;
+}
 
 .hs {
 	text-align: center;
@@ -82,6 +86,18 @@ main {
 	letter-spacing: 0.9px;
 	margin: 0;
 }
+#anc {
+	background-color: #8c8c8c48;
+	text-decoration: none;
+}
+#anc:hover {
+	background-color: var(--color5);
+}
+/* #anc:any-link{
+	background-color: var(--color5);
+text-decoration: none;
+
+} */
 
 /* SKILLS */
 .title_cards {
@@ -130,7 +146,7 @@ main {
 .project_description > h4 {
 	text-align: center;
 }
-.project_description >p{
+.project_description > p {
 	text-align: justify;
 	word-spacing: none;
 }
@@ -146,9 +162,8 @@ main {
 }
 
 .button:hover {
-	
 	font-weight: bold;
-	
+
 	padding: 5px;
 	margin: 2px;
 	border: 1px solid black;
@@ -190,52 +205,54 @@ main {
 
 	color: var(--color1);
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
 	main {
-	width: 425px;
-	margin: 2em auto;
-	background-color: var(--color4);
-	border-radius: 3px;
-	padding-bottom: 1px;
-	box-shadow: 1px 1px 20px 5px #0000008e;
-}
-.container_photo{
-	width:60%
-}.photo {
-	width: 230px;
+		width: 425px;
+		margin: 2em auto;
+		background-color: var(--color4);
+		border-radius: 3px;
+		padding-bottom: 1px;
+		box-shadow: 1px 1px 20px 5px #0000008e;
 	}
-.title {
-	font-size: 1.8rem;
-}	
+	.container_photo {
+		width: 60%;
+	}
+	.photo {
+		width: 230px;
+	}
+	.title {
+		font-size: 1.8rem;
+	}
 
-.back_container_photo > div {
-    padding: 20px;
-    margin-top: 0px;
-    display: flex;
-    flex-direction: column;
-	gap:1em
+	.back_container_photo > div {
+		padding: 20px;
+		margin-top: 0px;
+		display: flex;
+		flex-direction: column;
+		gap: 1em;
+	}
+	.container_projects {
+		width: 75%;
+	}
+	.container_cards {
+		margin: auto;
+		width: 25em;
+		display: flex;
+		align-items: center;
+		gap: 1em;
+	}
+	.project {
+		flex-direction: column;
+	}
+	.project_buttons {
+		text-align: center;
+	}
+	.icone > p {
+		margin: 0;
+		font-size: 18px;
+		display: none;
+	}
+	.icone:hover {
+		font-size: 2em;
+	}
 }
-.container_projects{
-	width: 75%;
-}
-.container_cards {
-	margin: auto;
-	width: 25em;
-	display: flex;
-	align-items: center;
-	gap: 1em;
-}
-.project{
-flex-direction: column;
-}
-.project_buttons{
-	text-align: center;
-}
-.icone>p{
-margin: 0;
-font-size: 18px;
-display:none
-}
-.icone:hover{
-	font-size: 2em;
-}}
