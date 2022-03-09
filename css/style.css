@@ -192,7 +192,7 @@ main {
 }
 @media screen and (max-width:500px) {
 	main {
-	width: 440px;
+	width: 425px;
 	margin: 2em auto;
 	background-color: var(--color4);
 	border-radius: 3px;
@@ -202,7 +202,7 @@ main {
 .container_photo{
 	width:60%
 }.photo {
-	width: 220px;
+	width: 230px;
 	}
 .title {
 	font-size: 1.8rem;
@@ -215,6 +215,9 @@ main {
     flex-direction: column;
 	gap:1em
 }
+.container_projects{
+	width: 75%;
+}
 .container_cards {
 	margin: auto;
 	width: 25em;
@@ -224,6 +227,9 @@ main {
 }
 .project{
 flex-direction: column;
+}
+.project_buttons{
+	text-align: center;
 }
 .icone>p{
 margin: 0;
