@@ -94,7 +94,6 @@ main {
 	background-color: var(--color5);
 }
 
-
 /* SKILLS */
 .title_cards {
 	margin-bottom: 30px;
@@ -201,9 +200,9 @@ main {
 
 	color: var(--color1);
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
 	main {
-		width: 400px;
+		width: 390px;
 		margin: 2em auto;
 		background-color: var(--color4);
 		border-radius: 3px;
@@ -211,22 +210,21 @@ main {
 		box-shadow: 1px 1px 20px 5px #0000008e;
 	}
 	/* cabeçalho */
-	.container_photo {
-		width: 60%;
-	}
-	.photo {
-		width: 205px;
-	}
-	.title {
-		font-size: 1.8rem;
-	}
 
 	.back_container_photo > div {
 		padding: 20px;
 		margin-top: 0px;
-		display: flex;
-		flex-direction: column;
-		gap: 1em;
+		display: block;
+		text-align: center;
+	}
+.container_photo{
+	width: 100%;
+}
+	.photo {
+		width: 150px;
+	}
+	.title {
+		font-size: 1.8rem;
 	}
 
 	/* skills */
