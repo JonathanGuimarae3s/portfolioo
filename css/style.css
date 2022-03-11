@@ -203,18 +203,19 @@ main {
 }
 @media screen and (max-width: 500px) {
 	main {
-		width: 425px;
+		width: 400px;
 		margin: 2em auto;
 		background-color: var(--color4);
 		border-radius: 3px;
 		padding-bottom: 1px;
 		box-shadow: 1px 1px 20px 5px #0000008e;
 	}
+	/* cabeçalho */
 	.container_photo {
 		width: 60%;
 	}
 	.photo {
-		width: 225px;
+		width: 220px;
 	}
 	.title {
 		font-size: 1.8rem;
@@ -227,15 +228,18 @@ main {
 		flex-direction: column;
 		gap: 1em;
 	}
-	.container_projects {
-		width: 75%;
-	}
+
+	/* skills */
 	.container_cards {
 		margin: auto;
-		width: 25em;
+		width: 23em;
 		display: flex;
 		align-items: center;
 		gap: 1em;
+	}
+	/* projetos */
+	.container_projects {
+		width: 75%;
 	}
 	.project {
 		flex-direction: column;
@@ -243,6 +247,7 @@ main {
 	.project_buttons {
 		text-align: center;
 	}
+	/* contatos */
 	.icone > p {
 		margin: 0;
 		font-size: 18px;
