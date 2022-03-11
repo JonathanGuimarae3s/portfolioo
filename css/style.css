@@ -93,11 +93,7 @@ main {
 #anc:hover {
 	background-color: var(--color5);
 }
-/* #anc:any-link{
-	background-color: var(--color5);
-text-decoration: none;
 
-} */
 
 /* SKILLS */
 .title_cards {
@@ -218,7 +214,7 @@ text-decoration: none;
 		width: 60%;
 	}
 	.photo {
-		width: 230px;
+		width: 225px;
 	}
 	.title {
 		font-size: 1.8rem;
