@@ -201,7 +201,7 @@ main {
 
 	color: var(--color1);
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
 	main {
 		width: 400px;
 		margin: 2em auto;
@@ -215,7 +215,7 @@ main {
 		width: 60%;
 	}
 	.photo {
-		width: 220px;
+		width: 205px;
 	}
 	.title {
 		font-size: 1.8rem;
