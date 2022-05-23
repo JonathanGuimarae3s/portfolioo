@@ -1,7 +1,7 @@
 
 <h1 align="center"> Portfólio </h1>
 <p align="center">
-<a href="https://jonathanguimarae3s.github.io/portifolioo/" target="_blank">👉 Acesse a página aqui 👈</a>
+<a href="https://jonathanguimarae3s.github.io/portfolioo/" target="_blank">👉 Acesse a página aqui 👈</a>
 </p>
 <hr>
 <div align="center">
