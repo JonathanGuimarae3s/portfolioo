@@ -70,7 +70,8 @@ main {
 	width: 21%;
 }
 .photo {
-	width: 250px;
+width: 255px;
+    height: 262px;
 	border-radius: 100%;
 	box-shadow: 4px 4px 33px 1px #0d0d0d;
 }
