@@ -21,7 +21,8 @@
 		width: 100%;
 	}
 	.photo {
-		width: 230px;
+	width: 200px;
+	height: 200px;	
 	}
 
 	/* skills */
